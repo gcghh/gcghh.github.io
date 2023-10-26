@@ -1,1 +1,0 @@
-import{_ as t,v as a,b as e}from"./chunks/framework.caa0fbaf.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"markdown/特点/特点/特点.md","filePath":"markdown/特点/特点/特点.md"}'),r={name:"markdown/特点/特点/特点.md"};function s(n,o,d,_,c,m){return a(),e("div")}const f=t(r,[["render",s]]);export{p as __pageData,f as default};
