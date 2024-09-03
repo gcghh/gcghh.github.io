@@ -5,12 +5,13 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="Java软件工程师简历,Java,Miku的简历,試毅-思伟的简历,个人博客,Java软件工程师">
-    <meta name="description" content="周青强Java软件工程师的个人简历">
-    <meta name="author" content="周青强">
+    <meta name="description" content="李波Java软件工程师的个人简历">
+    <meta name="author" content="李波">
     <title>hello,i am miku</title>
-
+    <link rel="stylesheet" href="./live2d/css/live2d.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="119.css">
     <link rel="stylesheet" href="css/cv.css">
     <!--[if lte IE 9]>
     <script type="text/javascript">
@@ -20,6 +21,21 @@
 </head>
 
 <body>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+        <div class="hide-button">隐藏</div>
+    </div>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        var message_Path = './live2d/'
+        var home_Path = 'https://gongzhudian.gitee.io/miku/'
+    </script>
+    <script type="text/javascript" src="./live2d/js/live2d.js"></script>
+    <script type="text/javascript" src="./live2d/js/message.js"></script>
+    <script type="text/javascript">
+        loadlive2d("live2d", "./live2d/model/tia/model.json");
+    </script>
 
 <div class="content ">
     <div class="cv-container">
@@ -32,6 +48,7 @@
                 <h3 class="fade">一名Java软件工程师</h3>
                 <span class="active fade" id="abMe">关于我</span>
                 <span id="mypro" class="fade">我的作品</span>
+
             </div>
             <ul class="bg-img">
                 <li></li>
@@ -55,6 +72,9 @@
                         <li>技术掌握</li>
                         <li>我的经历</li>
                         <li>联系我</li>
+                        <li>爱心界面</li>
+                        <li>心情视窗</li>
+                        <li>轮播心情</li>
                     </ul>
                     <div class="fr more-nav">
                         <img src="image/more.png" alt="更多">
@@ -67,7 +87,7 @@
                     <li>技术掌握</li>
                     <li>我的经历</li>
                     <li>联系我</li>
-                    <li>退出登录</li>
+                    <li>爱心界面</li>
                 </ul>
             </div>
 
@@ -75,7 +95,7 @@
             <h2>关于我</h2>
             <hr>
             <div class="center fades">
-                <p class="center"><img src="image/mypic.jpg" alt="头像"/></p>
+                <p class="center"><img src="image/logo.jpg" alt="头像"/></p>
                 <div class="my-intro">
                     <p>Miku参与4-5个网站的前后端设计工作。
                         熟练使用Spring, SpringMVC，SpringBoot，Mybatis/plus等开源框架
@@ -177,7 +197,7 @@
                 </div> -->
                 <div class="col-md-4 col-xs-6 ">
                     <div class="imgbox">
-                        <img src="image/ibooks.png" alt="ibooks">
+                        <img src="image/book.png" alt="ibooks">
                     </div>
                     <a href="#" target="_blank">
                         <div class="zp-cover">
@@ -337,8 +357,13 @@
     </div>
     <p class="center beian">&copy; 2023miku | 码云:<a href="https://gitee.com/gongzhudian" target="_blank">Miku</a> by
         Miku</p>
-
+        <canvas id="live2d" width="300" height="300"></canvas>
 </div>
+<div class="sea">
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+
 <script src="./js/jquery-1.11.1.min.js"></script>
 <script src="./js/mycv.js"></script>
 </body>

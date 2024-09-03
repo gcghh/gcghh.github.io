@@ -60,7 +60,7 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    background: url("../image/achivements-bg.jpg") no-repeat center;
+    background: url("https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302") no-repeat center;
     background-attachment: fixed;
 }
 .cv-container{
@@ -199,19 +199,19 @@
     }
 }
 .bg-img li:nth-child(1){
-    background: url(../image/bg1.jpg) no-repeat center ;
+    background: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(2){
-    background: url(../image/bg2.jpg) no-repeat center ;
+    background: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(3){
-    background: url(../image/bg3.jpg) no-repeat center ;
+    background: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302) no-repeat center ;
     background-size: cover;
 }
 .bg-img li:nth-child(4){
-    background: url(../image/bg4.jpg) no-repeat center ;
+    background: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302) no-repeat center ;
     background-size: cover;
 }
 #section1 h3{

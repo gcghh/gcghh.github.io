@@ -50,6 +50,8 @@ $(function () {
     //导航高亮
     $(".nav-ul li").bind("click", function () {
         var index = $(this).index();//获取序号
+        console.log(index);
+        
         $(".nav-ul li").eq(index).addClass("active").siblings().removeClass("active");
         $(".nav-xs-ul li").eq(index).addClass("active").siblings().removeClass("active");
     });
@@ -64,6 +66,15 @@ $(function () {
     //导航点击
     $(".nav-ul li").bind("click", function () {
         var index = $(this).index();//获取序号
+        if(index==6){
+            document.location.href='./love.html'
+        }
+        if(index==7){
+            document.location.href='./184.html'
+        }
+        if(index==8){
+            document.location.href='./149.html'
+        }
         _top = $(".section").eq(index + 1).offset().top; //获取对应div距顶高度
         moveTo();
     });
